@@ -1,0 +1,7 @@
+bmcgeheedd/provision_ubuntu14_maven:
+  Build:
+    - echo "Nothing to Build"
+  PreInstall:
+    - sudo apt-get -y update
+    - sudo apt-get -y install maven
+    
